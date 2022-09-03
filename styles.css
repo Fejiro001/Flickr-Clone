@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* put background omage in the body */
+html, body {
+  height: 100%;
+  max-width: 100%;
+  background-image: url("flickrimages/img/benito_druck.jpeg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage {
+  height: 100%;  
+}
+
+.check {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  /* border: 2px solid darkblue; */
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5% 3%;
+  /* border: 2px red solid; */
+  /* margin: auto; */
+}
+
+.logo {
+  padding: 0.3rem;
+  /* border: 2px solid purple; */
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo img {
+  width: 2.5rem;
+}
+
+.search {
+  /* position: relative; */
+  padding: 0 5%;
+  width: 85%;
+  margin: 0 2%;
+  /* border: 2px solid palevioletred; */
+}
+
+/* to make the search icon be in the input field */
+i {
+  position: absolute;
+}
+
+.icon {
+  padding: 0.6rem;
+  text-align: center;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 0.2rem;
+  min-width: 100%;
+  padding: 0.6rem 0.6rem 0.6rem 2.5rem;
+}
+
+.log{
+  display: flex;
+  /* border: 2px solid orange; */
+  /* flex-flow: row wrap; */
+  flex-shrink: 0;
+  justify-content: space-evenly;
+  width: 20%;
+  padding: 0 1rem;
+  margin: 0 0.6rem 0 0;
+}
+
+.login, .signup {
+  font-size: 1rem;
+  white-space: nowrap;
+  line-height: 2rem;
+  padding: 0 1.25rem;
+  font-weight: 600;
+}
+
+.login {
+  text-decoration: none;
+  padding: 0 1.25rem;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+}
+
+.signup {
+  background-color: white;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.signup:hover {
+  cursor: pointer;
+}
+
+/* center alignment
+display; flex
+vertical - align-items
+horizontal - justify-content */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid green; */
+  /* fixed position to remove scrollbar */
+  position: fixed;
+}
+
+.motto {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.statement {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.start {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0;
+  background-color: white;
+  color: black;
+  line-height: 4rem;
+}
+
+.start:hover {
+  cursor: pointer;
+}
+
+.footer {
+  /* border: 2px solid yellow; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.footer .links {
+  display: flex;
+  /* border: 2px solid yellow; */
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.8rem;
+  font-weight: 600;
+}

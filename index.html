@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flickr</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-  <div class="header">
-    <div class="logo"></div>
-    <ul>
-      <li>
-        <input type="text" placeholder="Photos, people, or groups">
-      </li>
-      <li>Login</li>
-      <li>Sign Up</li>
-    </ul>
+  <div class="homepage">
+    <div class="check">
+      <nav>
+        <div class="logo">
+          <img src="flickrimages\opensearch-flickr-logo.png" alt="flickr logo">
+          <!-- <img src="flickrimages\logo_home.png" alt="flickr"> -->
+        </div>
+        <div class="search">
+          <i class="fa fa-search icon" aria-hidden="true"></i>
+          <input type="text" placeholder="Photos, people, or groups" id="look">
+        </div>
+        <div class="log">
+          <div class="login"><a href="">Log In</a></div>
+          <div><button class="signup">Sign Up</button></div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="main">
+      <div class="motto">Find your inspiration.</div>
+      <div class="statement">Join the Flickr community, home to tens of billions of <br> photos and 2 million groups.
+      </div>
+      <button class="start">Start for free</button>
+    </div>
+
+    <div class="footer">
+      <ul class="links">
+        <li><a href="">About</a></li>
+        <li><a href="">Jobs</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Developers</a></li>
+        <li><a href="">Guidelines</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="">Help forum</a></li>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Cookies</a></li>
+        <li><a href="">English</a></li>
+        <li><a href="">SmugMug+Flickr.</a></li>
+        <div class="socials">
+          <li></li>
+          <li></li>
+          <li></li>
+        </div>
+      </ul>
+    </div>
   </div>
 
-  <div class="main">
-    <p>Find your inspiration.</p>
-    <p>Join the Flickr community, home to tens of billions of photos and 2 million groups.</p>
-    <button>Start for free</button>
-  </div>
 
-  <div class="footer">
-    <ul>
-      <li>About</li>
-      <li>Jobs</li>
-      <li>Blog</li>
-      <li>Developers</li>
-      <li>Guidelines</li>
-      <li>Help</li>
-      <li>Help forum</li>
-      <li>Privacy</li>
-      <li>Terms</li>
-      <li>Cookies</li>
-      <li>English</li>
-      <li>SmugMug+Flickr.</li>
-      <li class="socials">
-        <li></li>
-        <li></li>
-        <li></li>
-      </li>
-    </ul>
-  </div>
 </body>
+
 </html>
